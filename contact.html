@@ -16,7 +16,7 @@
 
         <h1 class="text-2xl">Greenden</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        <svg  id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="size-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -38,6 +38,33 @@
 
         </ul>
     </nav>
+
+     <!-- side navbar -->
+
+     <section id="sidenav" class=" bg-green-200 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right:-50%;">
+
+        <div class=" text-right p-5">
+            <p id="closenav" class=" inline font-semibold cursor-pointer"> X </p>
+        </div>
+
+        <ul class="flex flex-col items-center  gap-10 text-gray-600">
+
+            <li>
+                <a class="hover:underline  hover:text-black" href="./index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline  hover:text-black" href="./products.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+
+        </ul>
+
+
+    </section>
 
     <!-- header section -->
 
@@ -104,27 +131,28 @@
                   <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10" placeholder="Email">
                   <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10" placeholder="Phone">
                   <div class="mb-10">
-                      <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Preferred method  of communication</h4>
-                      <div class="flex">
-                          <div class="flex items-center mr-11">
-                              <input id="radio-group-1" type="radio" name="radio-group" class="hidden checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100">
-                              <label for="radio-group-1" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
-                                  <span class="border border-gray-300 rounded-full mr-2 w-4 h-4  ml-2 "></span> Email 
-                              </label>
-                          </div>
-                          <div class="flex items-center">
-                              <input id="radio-group-2" type="radio" name="radio-group" class="hidden checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100">
-                              <label for="radio-group-2" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
-                                  <span class="border border-gray-300  rounded-full mr-2 w-4 h-4  ml-2 "></span> Phone 
-                              </label>
-                          </div>
-                      </div>
-                  </div>
+                    <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Preferred method  of communication</h4>
+                    <div class="flex">
+                        <div class="flex items-center mr-11">
+                            <input id="radio-group-1" type="radio" name="radio-group" class="hidden checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100">
+                            <label for="radio-group-1" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
+                                <span class="border border-gray-300 rounded-full mr-2 w-4 h-4  ml-2 "></span> Email 
+                            </label>
+                        </div>
+                        <div class="flex items-center">
+                            <input id="radio-group-2" type="radio" name="radio-group" class="hidden checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100">
+                            <label for="radio-group-2" class="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
+                                <span class="border border-gray-300  rounded-full mr-2 w-4 h-4  ml-2 "></span> Phone 
+                            </label>
+                        </div>
+                    </div>
+                </div>
                   <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10" placeholder="Message">
                   <button class="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm">Send</button>
           </div>
         </div>
-      </section>
+      </section>  
+    
                                               
 
     <!--footer section -->
@@ -134,6 +162,9 @@
         <p>The Standard chunk of lorem ipsum used since the 1500s is reproduced for the products interests</p>
         <p>@ 2024 Greenden.com</p>
     </section>
+
+    <script src="contact.js"></script>
+    
 </body>
 
 </html>
