@@ -4,11 +4,13 @@ Greenden is a beautifully crafted flower selling website built entirely with pur
 
 # Features
 
-1.Responsive Design: Optimized for seamless use across various devices and screen sizes.
-2.Minimalistic Aesthetics: Clean and uncluttered layout focusing on user-friendliness.
-3.Tailwind CSS: Styled using only Tailwind CSS, demonstrating the power and flexibility of utility-first CSS frameworks.
-4.Ease of Navigation: Simple and intuitive navigation to improve user engagement and satisfaction.
+Responsive Design: The website is fully responsive, ensuring a great user experience across all devices.
 
+JavaScript Enhancements:
+
+Search Functionality on Products Page: Users can now easily search for their desired plants using the search bar on the products page. The search feature dynamically filters the products as the user types, providing instant results.
+Working Navbar on Home Page: The homepage now includes a fully functional navbar, enhancing navigation and user interaction. Users can smoothly transition between different sections of the site.
+Modern UI: Leveraging Tailwind CSS for styling, the site features a modern and clean design, making it not only attractive but also easy to navigate.
 #About the Project
 
 This project was built as part of my journey to master Tailwind CSS. It serves as a testament to the versatility of Tailwind in creating professional, aesthetically pleasing websites without relying on traditional CSS or additional frameworks.
